@@ -1,23 +1,19 @@
-<html>
-  <p> WITAJ!</p>
-  <p> Wszysto dziala</p>
-</html>
-
-<html>
-  <head>
-      <title> by marrrt</title>
-  </head>
-  <body>
-      <p>Hi there!</p>
-      <p>It works!</p>
-  </body>
-</html>
+{% load staticfiles %}
 
 <html>
   <head>
     <title> Django Girls blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   </head>
   <body>
+
+
+
+
+
     <div>
         <h1><a href="">Django Girls Blog</a></h1>
     </div>
@@ -51,5 +47,19 @@ rta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauri
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
